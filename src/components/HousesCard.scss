@@ -1,0 +1,24 @@
+.house-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+  
+  .house-card:hover{
+    cursor: pointer;
+  }
+  
+  .house-card img {
+    border: 1px solid var(--stroke);
+    padding: 3px;
+    width: 200px;
+    margin: 8px;
+    background-color: var(--highlight);
+  }
+  
+  .house-card h4 {
+    width: fit-content;
+  }
+  

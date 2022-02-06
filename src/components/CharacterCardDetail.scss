@@ -1,0 +1,79 @@
+h4{
+    color:whitesmoke;
+    font-size: 18px;
+    font-weight: normal;
+
+}
+h2{
+    color:whitesmoke;
+    font-size: 24px;
+    font-weight: normal;
+    padding: 20px;
+}
+p{
+    color:whitesmoke;
+    font-size: 12px;
+    font-family: arial;
+}
+.character-container {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.character-card-link {
+    display: flex;
+    float: left;
+    width: 100%;
+    text-align: start;
+    a {
+        margin: 20px 0px 0px 50px;
+    }
+}
+.character-list-item {
+    width: 20vw;
+}
+.character-img {
+    width: 25vw;
+    height: 35vh;
+    object-fit: contain;
+    text-align: center;
+    padding: 20px;
+
+}
+li {
+    padding: 20px;
+    width: 10vw;
+    text-align: center;
+}
+
+ul {
+    max-height:30vh ;
+    padding: 0 0 20px 0;
+    overflow-y: scroll;
+}
+ul::-webkit-scrollbar{
+    background-color: rgb(0, 0, 0);
+    width:2px;
+    border-radius: 20px
+
+}
+ul::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 3px;
+}
+ul::-webkit-scrollbar-track {
+    width: 1px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px
+}
+
+.character-list-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-height: 80vh;
+}

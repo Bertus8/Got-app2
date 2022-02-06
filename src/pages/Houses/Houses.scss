@@ -1,0 +1,38 @@
+.houses-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow-y: scroll;
+    max-height: 70vh;
+    max-width: 90vw;
+    margin-left: 5vw;
+    margin-top: 10vh;
+}
+.btn-buscador {
+    background-color:white;
+}
+
+.houses-container::-webkit-scrollbar{
+    background-color: rgb(0, 0, 0);
+    width:2px;
+    border-radius: 20px
+
+}
+.houses-container::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 3px;
+}
+.houses-container::-webkit-scrollbar-track {
+    width: 1px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px
+}
+span{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 270px;
+    margin-top: 10px;
+}

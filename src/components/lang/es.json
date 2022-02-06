@@ -1,0 +1,26 @@
+
+  {
+        "app.nav.casas": "Casas",
+        "app.nav.personajes": "Personajes",
+        "app.nav.cronologia": "Cronologia",
+
+        
+        "app.charactersDetail.house": "Casa",
+        "app.charactersDetail.allegiances": "Alianzas",
+        "app.charactersDetail.appearances": "Apariciones",
+        "app.charactersDetail.father": "Padres",
+        "app.charactersDetail.siblings": "Descendientes",
+        "app.charactersDetail.titles": "Titulos",
+        "app.charactersDetail.back": "← volver",
+
+        
+        "app.housesDetail.words": "Lema",
+        "app.housesDetail.seat": "Sede",
+        "app.housesDetail.region": "Región",
+        "app.housesDetail.allegiance": "Alianza",
+        "app.housesDetail.religion": "Religiones",
+        "app.housesDetail.foundation": "Fundación",
+        "app..housesDetail.back": "← volver"
+
+
+      }

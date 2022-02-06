@@ -1,0 +1,22 @@
+{
+
+    "app.nav.casas": "Houses",
+    "app.nav.personajes": "Characters",
+    "app.nav.cronologia": "Chronology",
+
+    "app.charactersDetail.house": "House",
+    "app.charactersDetail.allegiances": "Allegiances",
+    "app.charactersDetail.appearances": "Appearances",
+    "app.charactersDetail.father": "Father",
+    "app.charactersDetail.siblings": "Siblings",
+    "app.charactersDetail.titles": "Titles",
+    "app.charactersDetail.back": "← Go back",
+
+    "app.housesDetail.words": "Words",
+    "app.housesDetail.seat":"Seat",
+    "app.housesDetail.region": "Region",
+    "app.housesDetail.allegiance": "Allegiances",
+    "app.housesDetail.religion": "Religions",
+    "app.housesDetail.foundation": "Foundation" ,
+    "app.housesDetail.back": "← Go back"
+}

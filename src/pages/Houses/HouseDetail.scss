@@ -1,0 +1,35 @@
+h4{
+  max-width: 206px;
+}
+.house-card-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.house-card-detail img {
+  border: 1px solid var(--stroke);
+  padding: 3px;
+  width: 400px;
+  margin: 8px;
+  background-color: var(--highlight);
+}
+
+.house-card-detail span{
+    font-weight:normal;
+}
+.house-card-detail p{
+    margin: 10px 40px;
+    font-size: 13px;
+}
+
+.house-card-detail a{
+  color: var(--highlight)
+}
+span{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 270px;
+  margin-top: 10px;
+}

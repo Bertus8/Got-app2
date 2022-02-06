@@ -1,0 +1,31 @@
+.buscador {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: absolute;
+}
+    input{
+        margin:0;
+        width: 30vw;
+        background-color: inherit;
+        border: none;
+        border-bottom: 2px solid whitesmoke;
+        text-align: left;
+        align-items: left;
+        margin: 20px;
+        color: whitesmoke;
+
+    }
+
+    .btn-lupa {
+        margin-left: 20px;
+        text-decoration: none;
+        border:none;
+        background-color: inherit;
+
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
