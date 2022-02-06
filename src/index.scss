@@ -1,5 +1,8 @@
 @import "~bootstrap/scss/bootstrap-grid.scss";
-@import url(//db.onlinewebfonts.com/c/97c4b25dc74e0ab045154e75a8fdd69d?family=Game+of+Thrones);
+@font-face {
+  font-family: Game of Thrones;
+  src: url(../public/GameofThrones.ttf);
+}
 body {
   margin: 0;
   padding: 0;
