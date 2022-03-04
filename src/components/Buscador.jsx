@@ -13,7 +13,7 @@ const Buscador = ({texto, setTexto}) => {
     console.log(texto);
   }
   return (
-    <section className="buscador">
+    <div className="buscador">
       <button className="btn-lupa" type="submit"><img src="https://res.cloudinary.com/dtaz65dmf/image/upload/v1644151367/DAG-coches/search_1_mjhowr.png" alt="lupa"/></button>
       <form onSubmit={handleSubmit}>
         <input
@@ -25,7 +25,7 @@ const Buscador = ({texto, setTexto}) => {
         />
 
       </form>
-    </section>
+    </div>
   );
 };
 

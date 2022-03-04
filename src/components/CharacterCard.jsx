@@ -13,7 +13,9 @@ const CharacterCard = ({ character }) => {
     <Link to={generatePath("/characters/:name", { name: character.name })}>
     
     <div className="character-card" style={containerStyle}>
+      <div className="title-card">
       <h4>{character.name}</h4>
+      </div>
     </div>
   </Link>
   );

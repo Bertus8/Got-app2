@@ -11,10 +11,10 @@ const context = useContext(Context)
       <div className="container-button">
   
       <button value={context.locale,"en"} onClick={context.selectLanguage}>
-      <img src="https://res.cloudinary.com/dtaz65dmf/image/upload/v1644090849/DAG-coches/united-kingdom_1_eccdla.png"/>
+      <img className="img-nav" src="https://res.cloudinary.com/dtaz65dmf/image/upload/v1644090849/DAG-coches/united-kingdom_1_eccdla.png"/>
       </button>
       <button value={context.locale,"es"} onClick={context.selectLanguage}>
-      <img src="https://res.cloudinary.com/dtaz65dmf/image/upload/v1644090846/DAG-coches/spain_1_lrnufu.png"/>
+      <img className="img-nav" src="https://res.cloudinary.com/dtaz65dmf/image/upload/v1644090846/DAG-coches/spain_1_lrnufu.png"/>
       </button>
       </div>
       <div className='container-link'> 

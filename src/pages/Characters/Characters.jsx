@@ -17,7 +17,7 @@ const Characters = () => {
   }, []);
 
   const charFilter = characters.filter((character) =>
-    character.name.toLowerCase().includes(texto.toLowerCase())
+  character.name.toLowerCase().includes(texto.toLowerCase())
   );
 
   return (

@@ -18,11 +18,11 @@ nav{
     width: 80px;
  
     }
-    img{
+    .img-nav{
         margin: 0;
        width: 100%;
        height: auto;
-        z-index:2;
+
      
     }
 
@@ -46,8 +46,17 @@ a{
     max-height: 0px;
 }
 }
-@media (min-width: 667px) and (max-width: 1024px) {
-}
-@media (max-width: 667px) {
-    
+@media (min-width: 200px) and (max-width: 1024px) {
+    nav{
+    a{
+        margin-top: 90vh;
+        text-align: center;
+        text-decoration: none;
+        z-index: 1;
+        font-size: 0.7rem;
+        }
+        a:hover{
+            text-decoration: 2px underline;
+        }
+    }
 }

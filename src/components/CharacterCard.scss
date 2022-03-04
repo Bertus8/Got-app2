@@ -1,36 +1,59 @@
 .character-card {  
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
   align-items: center;
+  justify-content: flex-end;
   flex-direction: column;
-  margin-bottom: 20px;
-  background-position: center;
+  margin: 20px 0px;
   background-size: contain;
-  text-align: center;
-  width: 15vw;
-  height: 40vh;
+  background-repeat: no-repeat;
+  width: 13vw;
+  height: 35vh;
  
   
-h4{
-      max-width: 12vw;
-           text-align: center;
-           padding: 10px 0px;
+.title-card{
+    display: flex;
+    justify-content: center;
+          width: 14vw;
+          text-align: center;
+          padding: 10px 0px;
           color: transparent;
           background-color: transparent;
           height: 5%;
           margin: 0;
           bottom: 0;
           object-fit: contain;
+          z-index:-1;
+          h4{
+            color: black;
+          }
 }
   &:hover {
-      h4{
+    .title-card{
     width: 100%;
     max-width: 100%;
     transition: 0.2s;
     text-align: center;         
     color: rgba(255, 255, 255, 0.938);
     background-color: rgba(0, 0, 0, 0.5);
-
-  }}
+    z-index:0;
+    h4{
+      color: white;
+    }
+  }
+}
+}
+@media (min-width: 200px) and (max-width: 1024px) {
+  .character-card {  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    background-size: cover;
+    text-align: center;
+    width: 75vw;
+    height: 40vh;
+}
 }
