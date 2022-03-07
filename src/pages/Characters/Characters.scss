@@ -63,3 +63,16 @@ span{
         height: 30px;
     }
 }
+@media (min-width: 200px) and (max-width: 1024px) {
+    .characters-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        overflow-y: scroll;
+        max-height: 68vh;
+        max-width: 90vw;
+        margin-left: 5vw;
+        margin-top: 10vh;
+        
+    }
+}

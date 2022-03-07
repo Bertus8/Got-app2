@@ -10,7 +10,7 @@ h4{
 .house-card-detail img {
   border: 1px solid var(--stroke);
   padding: 3px;
-  width: 400px;
+  width: 16vw;
   margin: 8px;
   background-color: var(--highlight);
 }
@@ -32,4 +32,14 @@ span{
   align-items: center;
   margin-right: 270px;
   margin-top: 10px;
+}
+@media (min-width: 200px) and (max-width: 1024px) {
+  .house-card-detail img {
+    border: 1px solid var(--stroke);
+    padding: 3px;
+    width: 46vw;
+    margin: 8px;
+    background-color: var(--highlight);
+  }
+  
 }

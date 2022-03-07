@@ -16,8 +16,8 @@ const CharacterCardDetail = ({ character}) => {
       {character.name ?  <h2 className="character-container-name">{character.name}</h2> : null}
       <div className="character-list-container">
             <ul>
-                <li>
-                    <h4><FormattedMessage id="app.charactersDetail.house" defaultMessage="House" ></FormattedMessage></h4>
+                <li >
+                    <h4 className='title-detail'><FormattedMessage id="app.charactersDetail.house" defaultMessage="House" ></FormattedMessage></h4>
                 </li>
                 <li>
                <ImagenHouse character={character}/>
@@ -25,7 +25,7 @@ const CharacterCardDetail = ({ character}) => {
             </ul>
             <ul>
                 <li>
-                    <h4><FormattedMessage id="app.charactersDetail.allegiances" defaultMessage="Allegiances" ></FormattedMessage></h4>
+                    <h4 className='title-detail'><FormattedMessage id="app.charactersDetail.allegiances" defaultMessage="Allegiances" ></FormattedMessage></h4>
                 </li>
                 {character.allegiances ? <li><p>{character.allegiances[0]}</p></li> : null }
                 {character.allegiances ? <li><p>{character.allegiances[1]}</p></li> : null }
@@ -33,7 +33,7 @@ const CharacterCardDetail = ({ character}) => {
             </ul>
             <ul>
                 <li>
-                    <h4><FormattedMessage id="app.charactersDetail.appearances" defaultMessage="Appearances" ></FormattedMessage></h4>
+                    <h4 className='title-detail'><FormattedMessage id="app.charactersDetail.appearances" defaultMessage="Appearances" ></FormattedMessage></h4>
                 </li>
               
                  {character.appearances ? <li><p>{character.appearances[0]}</p></li> : null }
@@ -49,7 +49,7 @@ const CharacterCardDetail = ({ character}) => {
             </ul>
             <ul>
                 <li>
-                    <h4><FormattedMessage id="app.charactersDetail.father" defaultMessage="Father" ></FormattedMessage></h4>
+                    <h4 className='title-detail'><FormattedMessage id="app.charactersDetail.father" defaultMessage="Father" ></FormattedMessage></h4>
                 </li>
                 <li>
                  <p> {character.father}</p>
@@ -57,7 +57,7 @@ const CharacterCardDetail = ({ character}) => {
             </ul>
             <ul>
                 <li>
-                    <h4><FormattedMessage id="app.charactersDetail.siblings" defaultMessage="Siblings" ></FormattedMessage></h4>
+                    <h4 className='title-detail'><FormattedMessage id="app.charactersDetail.siblings" defaultMessage="Siblings" ></FormattedMessage></h4>
                 </li>
                 {character.siblings ? <li><p>{character.siblings[0]}</p></li> : null }
                 {character.siblings ? <li><p>{character.siblings[1]}</p></li> : null }
@@ -66,7 +66,7 @@ const CharacterCardDetail = ({ character}) => {
             </ul>
             <ul>
                 <li>
-                    <h4><FormattedMessage id="app.charactersDetail.titles" defaultMessage="Titles" ></FormattedMessage></h4>
+                    <h4 className='title-detail'><FormattedMessage id="app.charactersDetail.titles" defaultMessage="Titles" ></FormattedMessage></h4>
                 </li>
                  {character.titles ? <li><p>{character.titles[0]}</p></li> : null }                 
                  {character.titles ? <li><p>{character.titles[1]}</p></li> : null }                 
